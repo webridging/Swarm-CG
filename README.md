@@ -1,10 +1,14 @@
 # This branch has the following changes
 1. The following error message is fixed:TypeError: center() got an unexpected keyword argument 'pbc'
+   
    修复Mdanalysis的center函数变更引起的报错：TypeError: center() got an unexpected keyword argument 'pbc'
 2. Added periodic processing(gmx_cmd = f'echo 2 0 | {ns.gmx_path} trjconv -s md.tpr -f md.xtc -pbc mol -center -o md.xtc') of coarse-grained simulation tracks
+   
    添加了优化过程中每步产生的粗粒化轨迹的周期性处理：将被优化分子的轨迹周期性处理并且居中，消除分子裂开的情况（也就是所谓的jump或者wrap的情况）。
 # Note
 The AA trajectories are modified by manual processing
+
+此次修改仅添加了粗粒化轨迹的被优化分子居中处理，而优化用到的全原子轨迹需要自己提前手动做相应处理。
 References：
 
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/1b894d70-5eb5-4935-87ab-70ce8286d1a6">
