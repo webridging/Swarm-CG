@@ -1,3 +1,11 @@
+# This branch has the following changes
+1. The following error message is fixed:TypeError: center() got an unexpected keyword argument 'pbc'
+   修复Mdanalysis的center函数变更引起的报错：TypeError: center() got an unexpected keyword argument 'pbc'
+2. Added periodic processing(gmx_cmd = f'echo 2 0 | {ns.gmx_path} trjconv -s md.tpr -f md.xtc -pbc mol -center -o md.xtc') of coarse-grained simulation tracks
+   添加了优化过程中每步产生的粗粒化轨迹的周期性处理：将被优化分子的轨迹周期性处理并且居中，消除分子裂开的情况（也就是所谓的jump或者wrap的情况）
+References：
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/1b894d70-5eb5-4935-87ab-70ce8286d1a6">
+
 # Swarm-CG
 
 Swarm-CG is designed for automatically optimizing the bonded terms of a MARTINI-based coarse-grained (CG) molecular model, in explicit or implicit solvent, with respect to a reference all-atom (AA) trajectory and starting from a preliminary CG model (topology and non-bonded parameters). The package is designed for usage with Gromacs and contains 3 modules for:
