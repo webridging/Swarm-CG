@@ -9,12 +9,18 @@
 The AA trajectories are modified by manual processing
 
 此次修改仅添加了粗粒化轨迹的被优化分子居中处理，而优化用到的全原子轨迹需要自己提前手动做相应处理。
-References：
 
+I thank Charly Empereur-Mot, Luca Pesce, Giovanni Doni, Davide Bochicchio, Riccardo Capelli, Claudio Perego, and Giovanni M. Pavan for their valuable works
+
+References：
+Swarm-CG: Automatic Parametrization of Bonded Terms in MARTINI-Based Coarse-Grained Models of Simple to Complex Molecules via Fuzzy Self-Tuning Particle Swarm Optimization
+Charly Empereur-Mot, Luca Pesce, Giovanni Doni, Davide Bochicchio, Riccardo Capelli, Claudio Perego, and Giovanni M. Pavan
+ACS Omega 2020 5 (50), 32823-32843
+DOI: 10.1021/acsomega.0c05469
+others
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/1b894d70-5eb5-4935-87ab-70ce8286d1a6">
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/49deab8a-269d-4d13-ac07-219e55f28384">
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/5b6289ee-fcad-42a3-91b2-1aefa490b709">
-<img width="480" alt="image" src="https://github.com/user-attachments/assets/7c154736-125b-4537-9792-956177936080">
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/0d354bd6-0202-4782-a611-714730a35076">
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/06bbfbf0-8242-4739-98fb-06fe4fbbfdad">
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/90c784ce-f6bd-4783-b1f5-1fc4e583d27e">
