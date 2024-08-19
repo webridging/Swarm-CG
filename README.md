@@ -2,9 +2,19 @@
 1. The following error message is fixed:TypeError: center() got an unexpected keyword argument 'pbc'
    修复Mdanalysis的center函数变更引起的报错：TypeError: center() got an unexpected keyword argument 'pbc'
 2. Added periodic processing(gmx_cmd = f'echo 2 0 | {ns.gmx_path} trjconv -s md.tpr -f md.xtc -pbc mol -center -o md.xtc') of coarse-grained simulation tracks
-   添加了优化过程中每步产生的粗粒化轨迹的周期性处理：将被优化分子的轨迹周期性处理并且居中，消除分子裂开的情况（也就是所谓的jump或者wrap的情况）
+   添加了优化过程中每步产生的粗粒化轨迹的周期性处理：将被优化分子的轨迹周期性处理并且居中，消除分子裂开的情况（也就是所谓的jump或者wrap的情况）。
+# Note
+The AA trajectories are modified by manual processing
 References：
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/1b894d70-5eb5-4935-87ab-70ce8286d1a6">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/49deab8a-269d-4d13-ac07-219e55f28384">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/5b6289ee-fcad-42a3-91b2-1aefa490b709">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/7c154736-125b-4537-9792-956177936080">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/0d354bd6-0202-4782-a611-714730a35076">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/06bbfbf0-8242-4739-98fb-06fe4fbbfdad">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/90c784ce-f6bd-4783-b1f5-1fc4e583d27e">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/f704eb76-d9b9-4d7c-aebb-57138c4306e0">
+
 
 # Swarm-CG
 
