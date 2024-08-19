@@ -17,6 +17,7 @@ Swarm-CG: Automatic Parametrization of Bonded Terms in MARTINI-Based Coarse-Grai
 Charly Empereur-Mot, Luca Pesce, Giovanni Doni, Davide Bochicchio, Riccardo Capelli, Claudio Perego, and Giovanni M. Pavan
 ACS Omega 2020 5 (50), 32823-32843
 DOI: 10.1021/acsomega.0c05469
+
 others
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/1b894d70-5eb5-4935-87ab-70ce8286d1a6">
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/49deab8a-269d-4d13-ac07-219e55f28384">
