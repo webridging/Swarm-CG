@@ -13,6 +13,9 @@ The AA trajectories are modified by manual processing
 
 此次修改仅添加了粗粒化轨迹的被优化分子居中处理，而优化用到的全原子轨迹需要自己提前手动做相应处理。
 
+Using added periodic processing, the results may be like this: ![image](https://github.com/user-attachments/assets/f23eda13-a5f0-4c34-aeda-0ce683127bdc)
+
+
 I thank Charly Empereur-Mot, Luca Pesce, Giovanni Doni, Davide Bochicchio, Riccardo Capelli, Claudio Perego, and Giovanni M. Pavan for their valuable works
 
 References：
