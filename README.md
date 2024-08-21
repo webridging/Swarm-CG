@@ -5,6 +5,9 @@
 2. Added periodic processing(gmx_cmd = f'echo 2 0 | {ns.gmx_path} trjconv -s md.tpr -f md.xtc -pbc mol -center -o md.xtc') of coarse-grained simulation tracks
    
    添加了优化过程中每步产生的粗粒化轨迹的周期性处理：将被优化分子的轨迹周期性处理并且居中，消除分子裂开的情况（也就是所谓的jump或者wrap的情况）。
+
+   ![image](https://github.com/user-attachments/assets/804ff64b-0b86-4ef9-87f1-3e8ad0b53197) In this case, whether jumping or wrapping occurs, it results in the bond parameters being as large as the box size.
+
 # Note
 The AA trajectories are modified by manual processing
 
